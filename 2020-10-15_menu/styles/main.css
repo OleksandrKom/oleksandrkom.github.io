@@ -1,0 +1,37 @@
+div {
+    width: 150px;
+    border: 5px solid mediumaquamarine;
+    text-align: center;
+    padding: 25px 0;
+    background-color: darksalmon;
+}
+
+.item {
+    position: relative;
+    margin-top: 20px;
+}
+   
+.menu {
+    position: absolute;
+    display: none;
+    border: 0;
+    padding: 0;
+    left: 150px;
+    top: 10px;
+    
+}
+.link {
+    background-color: gold;
+    margin-top: auto;
+}
+
+.item:hover > .menu {
+    display: block;
+}
+
+.menu:hover > .link {
+    background-color: palegreen;
+}
+.item:hover {
+    background-color: magenta;
+}

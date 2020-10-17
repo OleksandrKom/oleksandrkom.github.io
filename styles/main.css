@@ -1,0 +1,13 @@
+.first-button {
+    height: 120px;
+    width: 45px;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(to right, #e7de59,#81c9f3);
+    box-shadow: 5px 5px;
+}
+
+button:active {
+    background: linear-gradient(to right, rgb(82, 241, 135), rgb(224, 134, 70));
+    box-shadow: none;
+}

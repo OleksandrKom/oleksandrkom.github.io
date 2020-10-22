@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body {
+    background-color: #266B97;
+}
+
+.main {
+    background-color: #B9D6EF;
+    height: 463px;
+    position: relative;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+
+.clouds {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    height: 114px;
+}
+
+
+.clouds > div {
+    position: absolute;
+}
+
+.cloud1 {
+    left: -261px;
+}
+
+.cloud2 {
+    right: -297px;
+}
+
+.comingsoon {
+    position: relative;
+    width: 600px;
+    font-family: 'Raleway', sans-serif;
+    /* border: 3px solid red; */
+    height: 70px;
+    margin: 0 auto;
+}
+.comingsoon > div {
+    position: absolute;
+    font-size: 4.4rem;
+    line-height: 44px;
+    left: 54px;
+    letter-spacing: 1px;
+    color: #FEFEFE;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
+    
+}
+.subscribe {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 33px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.subscribe > div {
+    position: absolute;
+    font-size: 14px;
+    /* line-height: 1.143; */
+    left: 56px;
+    letter-spacing: 1px;
+    color: rgb(38, 107, 151);
+
+}
+
+.form {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 38px;
+    width: 337px;
+    margin: 0 auto;
+}
+.megainput::placeholder {
+    color: rgb(128, 128, 128);
+    /* padding-left: 10px; */
+}
+    
+.megabutton {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: #FAB937;
+    text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
+    height: 38px;
+    left: 248px;
+    /* border-radius: 2px; */
+    outline: none;
+    border-radius: 4px;
+    /* background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%); */
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+
+}
+
+.megainput {
+    position: absolute;
+    font-size: 0.7rem;
+    height: 32px;
+    width: 223px;
+    font-family: "Arial";
+    padding-left: 8px;
+    letter-spacing: 0.2px;
+    border-radius: 4px;
+    background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+
+}
+.global_ice {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+
+}
+.ice {
+    position: absolute;
+    left: -139px;
+    top: 24px;
+}
+.global_ship {
+    position: relative;
+    margin: 0 auto;
+}
+.ship {
+    position: absolute;
+    left: 358px;
+    top: 147px;
+}
+
+
+
+
+.number {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 98px;
+    font-size: 2rem;
+    top: 0;
+}
+
+
+.counter {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: ;
+    width: 332px;
+    margin: 0 auto;
+    height: 165px;
+    border: 1px solid black;
+}
+.days {
+    position: relative;
+    border: 1px solid green;
+    width: 0;
+    height: 50px;
+    text-align: center;
+    left: 50px;
+    bottom: 0;
+    background: #266B97;
+}
+/* .hours {
+    position: relative;
+    border: 1px solid green;
+    text-align: center;
+    left: 50px;
+    bottom: 0;
+}
+.mins {
+    position: relative;
+    border: 1px solid green;
+    text-align: center;
+    left: 50px;
+    bottom: 0;
+} */
+
+
+
+  

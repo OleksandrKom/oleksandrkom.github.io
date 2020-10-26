@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 body {
-    background-color: #266B97;
+    /* background-color: #266B97; */
+    margin: 0;
 }
 
 .main {
@@ -28,7 +31,7 @@ div {
 }
 
 .cloud1 {
-    left: -261px;
+    left: -259px;
 }
 
 .cloud2 {
@@ -90,7 +93,6 @@ div {
     text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
     height: 38px;
     left: 248px;
-    /* border-radius: 2px; */
     outline: none;
     border-radius: 4px;
     /* background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%); */
@@ -122,67 +124,143 @@ div {
 .ice {
     position: absolute;
     left: -139px;
-    top: 24px;
+    top: -177px;
+
 }
 .global_ship {
     position: relative;
     margin: 0 auto;
+    height: 50px;
+    width: 50px;
 }
 .ship {
     position: absolute;
-    left: 358px;
-    top: 147px;
+    left: -164px;
+    top: 47px;
 }
+.lines {
+    position: relative;
+    height: 150px;
+    /* width: 50px; */
+    margin: 0 auto;
+    top: 188px;
+    
 
-
-
-
-.number {
+}
+.line1 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 98px;
-    font-size: 2rem;
-    top: 0;
+    height: 4px;
+    width: 100%;
+    top: 20px;
+    /* left: -465px; */
+    background-color: #DDECFA;
 }
+.line2 {
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    top: 24px;
+    background-color: #327DAD;
 
+}
+.line3 {
+    position: absolute;
+    height: 333px;
+    width: 100%;
+    top: 34px;
+    background-color: #266B97;
+}
 
 .counter {
     position: relative;
     font-family: 'Work Sans', sans-serif;
     color: ;
-    width: 332px;
+    width: 293px;
     margin: 0 auto;
-    height: 165px;
-    border: 1px solid black;
+    height: 124px;
+    /* border: 1px solid black; */
 }
 .days {
     position: relative;
-    border: 1px solid green;
     width: 0;
     height: 50px;
     text-align: center;
-    left: 50px;
-    bottom: 0;
-    background: #266B97;
+    left: 4px;
+    bottom: -99px;
+    color: #F3F3F3;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    
 }
-/* .hours {
-    position: relative;
-    border: 1px solid green;
+
+.number1 {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
     text-align: center;
-    left: 50px;
-    bottom: 0;
+    line-height: 75px;
+    font-size: 1.5rem;
+    top: -74px;
+    left: -3px;
+    font-family: 'Nunito', sans-serif;
+    color: #266B97;
+    background-color: #B9D6EF;
+}
+.hours {
+    position: relative;
+    
+    width: 0;
+    height: 50px;
+    text-align: center;
+    left: 105px;
+    bottom: -49px;
+    color: #F3F3F3;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+.number2 {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 1.5rem;
+    top: -74px;
+    left: 9px;
+    font-family: 'Nunito', sans-serif;
+    color: #266B97;
+    background-color: #B9D6EF;
 }
 .mins {
     position: relative;
-    border: 1px solid green;
+    width: 0;
+    height: 50px;
     text-align: center;
-    left: 50px;
-    bottom: 0;
-} */
+    left: 228px;
+    bottom: 1px;
+    color: #F3F3F3;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+.number3 {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 1.5rem;
+    top: -74px;
+    left: -5px;
+    font-family: 'Nunito', sans-serif;
+    color: #266B97;
+    background-color: #B9D6EF;
+}
 
 
 

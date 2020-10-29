@@ -85,6 +85,22 @@ div {
     color: rgb(128, 128, 128);
     /* padding-left: 10px; */
 }
+
+.megainput {
+    position: absolute;
+    left: -2px;
+    font-size: 0.7rem;
+    height: 36px;
+    width: 228px;
+    font-family: "Arial";
+    padding-left: 11px;
+    letter-spacing: 0.2px;
+    border-radius: 4px;
+    border: 0px;
+    background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+
+}
     
 .megabutton {
     position: absolute;
@@ -92,27 +108,19 @@ div {
     background-color: #FAB937;
     text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
     height: 38px;
+    width: 91px;
     left: 248px;
     outline: none;
     border-radius: 4px;
-    /* background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%); */
-    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
-
-}
-
-.megainput {
-    position: absolute;
-    font-size: 0.7rem;
-    height: 32px;
-    width: 223px;
-    font-family: "Arial";
-    padding-left: 8px;
-    letter-spacing: 0.2px;
-    border-radius: 4px;
+    border: 0px;
     background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
     box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
 
 }
+
+
+
+
 .global_ice {
     position: relative;
     height: 50px;

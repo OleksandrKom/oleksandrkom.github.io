@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "fontello-7bc6858b";
+    src: url('../fonts/fontello-7bc6858b/font/fontello.woff2 ');
+}
+
+
+body {
+    background-color: aquamarine;
+}
+.timer {
+    position: relative;
+    height: 105px;
+    width: 160px;
+    margin: 50px;
+    border: 1px solid black;
+    margin: 20px 20px;
+}
+.t1 {
+    position: absolute;
+    border: 1px solid black;
+    width: 160px;
+    height: 25px;
+    background-color: cornsilk;
+    text-align: center;
+    font-family: "fontello-7bc6858b";
+    
+}
+.t1::after {
+    font-family: "fontello-7bc6858b";
+    content: '\e832';
+}
+.t2 {
+    position: absolute;
+    
+    left: 0px;
+    top: 40px;
+}
+.t3 {
+    position: absolute;
+    
+    left: 92px;
+    top: 40px;
+    font-family: "fontello-7bc6858b";
+    content: '\e802';
+
+}
+.t3::before {
+    font-family: "fontello-7bc6858b";
+    content: '\e802';
+    
+}
+input {
+    background-color: cornsilk;
+    width: 70px;
+    height: 30px;
+    
+    }
+
+    

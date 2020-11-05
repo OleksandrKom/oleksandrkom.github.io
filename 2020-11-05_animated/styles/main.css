@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+.but1 {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin: 50px 200px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: rgb(56, 96, 218);
+    border: none;
+    user-select: none;
+    outline: none;
+    background: linear-gradient(to top, #13eb9f,#81c9f3);
+    box-shadow: inset rgba(255,255,255,.5) 2px 3px;
+}
+
+.but1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 10px;
+    height: 100%;
+    background-color: white;
+    transform: translate(-45px) skewX(-45deg);
+    transition: 0.3s;
+}
+.but1:hover::before {
+    transform: translate(300px) skewX(-45deg);
+    
+}
+.but1:active {
+    background-image: linear-gradient(to top, #dee788, #89cde6);
+    box-shadow: inset rgba(255,255,255,.5) 5px 5px;
+}

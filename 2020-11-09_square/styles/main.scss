@@ -1,0 +1,26 @@
+$side: 50px;
+
+// $number_width: 5;
+// $number_height: 4;
+
+.main {
+    height: $side*7;
+    width: $side*9;
+    border: 2px solid teal;
+    margin: $side auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cub {
+    width: $side;
+    height: $side;
+    border: 1px solid black;
+    background-color: blue;
+    margin: 15px;
+}

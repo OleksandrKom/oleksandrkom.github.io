@@ -1,0 +1,137 @@
+.main {
+    height: 98vh;
+    // border: 1px solid lightseagreen;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 100px 7fr 3fr 1fr 4fr 100px;
+    // gap: 5px;
+    // background-color: black;
+    grid-template-areas: 
+        "hd hd"
+        "lor lorjpg"
+        "lor fl"
+        "sc sc"
+        "lnum lnum"
+        "hil hil";
+}
+
+.main div {
+    background-color: lightgoldenrodyellow;
+    // border: 1px solid lightskyblue;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.header {
+    grid-area: hd;
+}
+.lorems {
+    grid-area: lor;
+}
+.lorem_jpg {
+    grid-area: lorjpg;
+}
+.flowers {
+    grid-area: fl;
+}
+.scroll {
+    grid-area: sc;
+}
+.lorem_10_11 {
+    grid-area: lnum;
+}
+.hills {
+    grid-area: hil;
+}
+
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        height: 50px;
+        flex-grow: 1;
+        min-width: 400px;
+    }
+}
+.lorem_10_11{
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        height: 100px;
+        flex-grow: 1;
+        min-width: 400px;
+    }
+}
+.lorems {
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-start;
+    div {
+        // height: 200px;
+        width: 100px;
+        margin: 5px;
+
+    }
+}
+.lorem_jpg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    // align-content: space-around;
+    justify-content: space-between;
+    
+    
+
+    .lorem7, .lorem8 {
+        // height: 200px;
+        width: 500px;
+        height: 100px;
+        margin: 5px;
+        border: 1px solid black;
+    }
+    // .1jpg {
+        
+    //     border-radius: 50%;
+    //     height: 50px;
+    //     width: 50px;
+    // }
+}
+.hills {
+    background-image: url('../pictures/2.jpg');
+    background-position: center;
+}
+.logo {
+    background-image: url('../pictures/logo.jpg');
+    background-position: center;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+.flowers {
+    background-image: url('../pictures/flowers.jpg');
+    background-position: bottom;
+}
+// .lorem_jpg {
+    
+    
+//     display: flex;
+//     flex-wrap: wrap;
+//     flex-direction: row;
+//     // align-content: space-around;
+//     justify-content: space-around;
+//     align-items: flex-start;
+//     width: 300px;
+//     div {
+//         width: 1150px;
+//     }
+
+//     }
+// }
+

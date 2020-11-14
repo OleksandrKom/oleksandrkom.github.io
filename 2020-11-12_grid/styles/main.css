@@ -9,10 +9,6 @@
       grid-template-areas: "hd hd" "lor lorjpg" "lor fl" "sc sc" "lnum lnum" "hil hil";
 }
 
-.main div {
-  background-color: lightgoldenrodyellow;
-}
-
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -94,6 +90,51 @@
 
 .lorems {
   overflow: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+      grid-template-columns: 200px 1fr;
+}
+
+.lorems .lorems_all {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "i3 ." "i3 i4" "i5 i4" "i5 i6" ". i6";
+}
+
+.lorems .lorems_all .lorem3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: i3;
+}
+
+.lorems .lorems_all .lorem4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: i4;
+}
+
+.lorems .lorems_all .lorem5 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: i5;
+}
+
+.lorems .lorems_all .lorem6 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: i6;
+}
+
+.lorem_jpg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,32 +149,36 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  width: 300px;
 }
 
-.lorems div {
-  width: 100px;
-  margin: 5px;
+.lorem7 {
+  position: relative;
 }
 
-.lorem_jpg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.lorem7 .1jpg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 5px;
+  top: 5px;
+  background-image: url("../pictures/7.jpg");
+  border-radius: 50%;
 }
 
-.lorem_jpg .lorem7, .lorem_jpg .lorem8 {
+.lorem8 {
+  position: relative;
+}
+
+.lorem8 .2jpg {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-image: url("../pictures/8.jpg");
+  border-radius: 50%;
+}
+
+.lorem7, .lorem8 {
   width: 500px;
   height: 100px;
   margin: 5px;
@@ -143,6 +188,10 @@
 .hills {
   background-image: url("../pictures/2.jpg");
   background-position: center;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  bottom: 0px;
 }
 
 .logo {
@@ -155,5 +204,19 @@
 .flowers {
   background-image: url("../pictures/flowers.jpg");
   background-position: bottom;
+}
+
+.scroll {
+  background: lightblue;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  .scroll {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

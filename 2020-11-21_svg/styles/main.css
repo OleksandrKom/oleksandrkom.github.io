@@ -1,0 +1,83 @@
+@-webkit-keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.main {
+  position: relative;
+}
+
+.svg {
+  height: 512px;
+  width: 512px;
+}
+
+.svg .rect_1 {
+  fill: #8b572a;
+}
+
+.svg .rect_2 {
+  fill: white;
+}
+
+.wh_1 {
+  display: none;
+  position: absolute;
+  width: 120px;
+  height: 27px;
+  margin-top: -109px;
+  margin-left: -15px;
+  border-right: 8px dotted black;
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-animation: wheel 0.3s steps(60, end) infinite;
+          animation: wheel 0.3s steps(60, end) infinite;
+}
+
+.wh_2 {
+  display: none;
+  position: absolute;
+  width: 120px;
+  height: 27px;
+  margin-top: -111px;
+  margin-left: 248px;
+  border-right: 8px dotted black;
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-animation: wheel 0.3s steps(60, end) infinite;
+          animation: wheel 0.3s steps(60, end) infinite;
+}
+
+.main:hover .rect_1 {
+  fill: peachpuff;
+}
+
+.main:hover .rect_2 {
+  fill: lightslategray;
+}
+
+.main:hover .wh_1 {
+  display: block;
+}
+
+.main:hover .wh_2 {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

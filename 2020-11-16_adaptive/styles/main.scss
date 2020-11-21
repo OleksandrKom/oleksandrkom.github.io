@@ -1,0 +1,165 @@
+.main {
+    
+    margin: 0 auto;
+    // width: 1117px;
+    min-width: 358px;
+    max-width: 1110px;
+    // background-color:teal;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // width: 1117px;
+    height: 36px;
+    text-align: end;
+    
+
+    .heads {
+        height: 36px;
+        width: 109px;
+        margin-left: 37px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 83px;
+    overflow-x: hidden;
+    
+    // width: 1117px;
+    
+
+    .hhh_1 {
+        margin-right: auto;
+    }
+
+    .button {
+        width: 218px;
+        height: 44px;
+        margin-left: 19px;
+        background: linear-gradient(245.23deg, #32228A -43.18%, #745ACD 100%), #C4C4C4;
+        border-radius: 3px;
+        color: white;
+    }
+    
+   .placehol {
+        width: 651px;
+        height: 44px;
+        padding-left: 42px;
+   }
+
+}
+
+.smart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 169px;
+       
+    .sm {
+           height: 169px;
+           width: 358px;      
+       }
+}
+@media screen and (max-width: 716px) {
+    .sm_3 {
+        display: none;
+    }
+    .placehol {
+        display: none;
+    }
+    
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    overflow-x: hidden;
+    height: 81px;
+    
+
+    .notice {
+        margin-right: auto;
+        
+    }
+    .ratio {
+        margin-left: 44px;
+    }
+    .b {
+        width: 25px;
+        height: 25px;
+    }
+    .s {
+        width: 25px;
+        height: 25px;
+    }
+
+    .cur_mob {
+        display: none;
+        
+    }
+
+    @media screen and (max-width: 358px) {
+        .currency {
+            display: none;
+        }
+        .ratio {
+            display: none;
+        }
+        .cur_mob {
+            display: block;
+        }
+    }
+}
+
+.chear {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+height: 1262px;
+
+    .ch {
+        height: 400px;
+        width: 253px;
+        background-image: url('../pictures/chear.png');
+        // border: 1px solid black;
+    }
+
+}
+
+.plus {
+        position: relative;
+        margin-top: 57px;
+        height: 44px;
+    }
+    .but2 {
+        // position: absolute;
+        width: 182px;
+        height: 44px;
+        // margin: auto;
+        color: #32228A;
+        border-color: #32228A;
+        border-radius: 3px;
+    
+    }
+   
+
+
+
+
+
+    
+
+

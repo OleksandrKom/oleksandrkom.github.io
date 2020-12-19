@@ -1,0 +1,27 @@
+.but {
+  height: 50px;
+  width: 50px;
+}
+
+.but1 {
+  height: 300px;
+  width: 50px;
+}
+
+.txt1 {
+  height: 50px;
+  width: 200px;
+}
+
+.txt2 {
+  height: 50px;
+  width: 200px;
+}
+
+.div {
+  height: 50px;
+  width: 260px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */

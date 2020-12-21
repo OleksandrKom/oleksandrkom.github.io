@@ -1,0 +1,66 @@
+@-webkit-keyframes goTrain {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes goTrain {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+.container {
+  height: 500px;
+  width: 1000px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
+
+.railway {
+  position: relative;
+  -webkit-animation: goTrain 2s linear normal forwards paused;
+          animation: goTrain 2s linear normal forwards paused;
+}
+
+.lamp {
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  top: 30px;
+  left: -60px;
+  border-radius: 10px;
+}
+
+.color1 {
+  background-color: none;
+}
+
+.color2 {
+  background-color: yellow;
+}
+
+.color3 {
+  background-color: green;
+}
+/*# sourceMappingURL=main.css.map */

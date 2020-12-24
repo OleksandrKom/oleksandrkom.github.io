@@ -3,30 +3,28 @@
 let arrNum = [5, 23, -110, 3, 18, 0, 14];
 
 let numNechet = arrNum.filter((elem, index) => {
-    return elem % 2 !==0;
+		return elem % 2 !==0;
 });
 console.log(numNechet);
 
 let numPlus = arrNum.map((value, index) => {
-    return value = value + 20;
+		return value = value + 20;
 });
 console.log(numPlus);
 
 let numPlusNechet = arrNum.filter((elem, index) => {
-    return elem % 2 !== 0 && elem > 0;
+		return elem % 2 !== 0 && elem > 0;
 });
 console.log(numPlusNechet);
 
 let numSumDiv = arrNum.reduce((sum, elem, index) => {
-    let temp = elem % 3;
-    return sum + temp;
+		let temp = elem % 3;
+		return sum + temp;
 }, 0);
 console.log(numSumDiv);
 
-let numBool = arrNum.some((elem, index) => {
-    return elem === 5;
-});
-console.log(numBool);
+let numFive = arrNum.includes(5);
+console.log(numFive);
 
 //f.Получить массив без первого элемента, вывести в консоль. g.Отсортировать массив по возрастанию, вывести в консоль. h) Определить, есть ли в массиве числа, кратные 5.
 
@@ -34,11 +32,11 @@ arrNum.splice(0, 1);
 console.log(arrNum);
 
 arrNum.sort((a, b) => {
-    return a - b;
+		return a - b;
 });
 console.log(arrNum);
 
-let numDivFive = arrNum.find((elem, index) => {
-    return elem % 5 === 0;
+let numDivis = arrNum.some((elem, index) => {
+		return elem % 5 == 0;
 });
-console.log(numDivFive);
+console.log(numDivis);

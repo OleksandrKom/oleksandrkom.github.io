@@ -1,18 +1,32 @@
-@-webkit-keyframes goTrain {
+@-webkit-keyframes goTrainR {
   0% {
-    left: 0px;
   }
   100% {
     left: 400px;
   }
 }
 
-@keyframes goTrain {
+@keyframes goTrainR {
   0% {
-    left: 0px;
   }
   100% {
     left: 400px;
+  }
+}
+
+@-webkit-keyframes goTrainL {
+  0% {
+  }
+  100% {
+    left: -400px;
+  }
+}
+
+@keyframes goTrainL {
+  0% {
+  }
+  100% {
+    left: -400px;
   }
 }
 
@@ -39,16 +53,31 @@
 
 .railway {
   position: relative;
-  -webkit-animation: goTrain 2s linear normal forwards paused;
-          animation: goTrain 2s linear normal forwards paused;
+  left: -80px;
+}
+
+.go-r {
+  -webkit-animation: goTrainR 2s linear normal forwards paused;
+          animation: goTrainR 2s linear normal forwards paused;
+}
+
+.go-l {
+  -webkit-animation: goTrainL 2s linear normal forwards paused;
+          animation: goTrainL 2s linear normal forwards paused;
+}
+
+.train {
+  position: absolute;
+  top: -80px;
+  left: -105px;
 }
 
 .lamp {
   position: absolute;
   height: 20px;
-  width: 100px;
-  top: 30px;
-  left: -60px;
+  width: 30px;
+  top: -60px;
+  left: 10px;
   border-radius: 10px;
 }
 

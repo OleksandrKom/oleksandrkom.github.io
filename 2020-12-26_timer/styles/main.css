@@ -1,0 +1,56 @@
+@-webkit-keyframes go {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.time-left {
+  width: 300px;
+  height: 70px;
+  border: 1px solid black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.time-input {
+  width: 150px;
+  height: 70px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.start-stop {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.indicator {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(/pictures/pointer.png);
+  background-position: center;
+  position: absolute;
+  top: 15px;
+  left: 235px;
+  -webkit-animation: go 3s linear infinite paused;
+          animation: go 3s linear infinite paused;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,59 @@
+.traffic-lights {
+height: 300px;
+width: 80px;
+border-radius: 50px;
+border: 1px solid black;
+margin: 20px auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.color {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    gap: 10px;
+}
+
+.buttons {
+height: 80px;
+width: 200px;
+border-radius: 5px;
+border: 1px solid black;
+margin: 20px auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.but {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 10%;
+    gap: 5px;
+}
+
+.btn-red {
+    background-color: red;
+}
+.btn-yellow {
+    background-color: yellow;
+}
+.btn-green {
+    background-color: green;
+}
+
+.color1 {
+    background-color: red;
+}
+.color2 {
+    background-color:yellow;
+}
+.color3 {
+    background-color: green;
+}

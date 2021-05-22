@@ -9,4 +9,6 @@ const controllers = require('../controllers');
 
 router.get('/', controllers.showAllUsers);
 
+router.post('/', upload.none(), controllers.showIdUser);
+
 module.exports = router;

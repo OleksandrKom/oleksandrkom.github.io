@@ -11,12 +11,18 @@ const showAllUsers = async (req, res) => {
   const usersNameSurname = users.map(el => {
     return el.name;
   });
-  console.log(usersNameSurname);
+  console.log({usersNameSurname});
   // res.sendStatus(200);
-  res.render('index');
+  res.render('index', {usersNameSurname});
+};
+
+const showIdUser = async (req, res) => {
+  console.log('>>>>>>><<<<<<<<<<', req.body);
+  res.send(data._id);
 };
 
 module.exports = {
   //  showIndex,
    showAllUsers,
+   showIdUser,
   };

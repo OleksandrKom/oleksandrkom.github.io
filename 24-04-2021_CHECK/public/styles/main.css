@@ -4,9 +4,13 @@ body {
   color: green;
 }
 
-.answ {
+.id {
   height: 20px;
-  margin: 20px;
+  width: 205px;
+  border: 0.5px solid black ;
+  background-color: honeydew;
+  margin-left: 75px;
+  margin-top: -20px;
 }
 
 /*# sourceMappingURL=main.css.map */

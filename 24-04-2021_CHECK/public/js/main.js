@@ -1,11 +1,12 @@
 const formEl = document.querySelector("#form1");
+const idUser = document.querySelector(".id");
 
-formEl.addEventListener("submit", function(event) {
+formEl.addEventListener("onchange", function(event) {
   event.preventDefault();
   const data = new FormData(formEl);
   axios.post('/', data)
     .then(r => {
-      formEl.innerHTML = `${r.data}`;
+      idUser.innerHTML = `${r.data._id}`;
     })
-    .catch(e => formEl.innerHTML = `ERROR: ${e}`);
+    .catch(e => idUser.innerHTML = `ERROR: ${e}`);
 });

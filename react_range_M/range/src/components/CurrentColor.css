@@ -1,0 +1,11 @@
+.CurrentColor {
+  width: 20vw;
+  text-align: center;
+}
+
+.color {
+  display: inline-block;
+  height: 10px;
+  width: 30px;
+  background-color: brown;
+}

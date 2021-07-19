@@ -1,0 +1,10 @@
+.Range {
+
+  text-align: center;
+}
+
+.Range input {
+  height: 10vh;
+  width: 90vw;
+  text-align: center;
+}
